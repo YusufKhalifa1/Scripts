@@ -1,0 +1,11 @@
+#!/bin/fish
+# Programms
+exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+picom &
+sxhkd &
+cpu &
+xwallpaper --zoom /home/yusuf/Pictures/0001.jpg &
+# fixing tearing
+xrandr --output VGA-0  --set TearFree on &
+# status bar 
+ssh-agent dwmblocks & 
