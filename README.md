@@ -1,1 +1,1 @@
-These are scripts i have written my self for artix linux 
+These are scripts i have written my self for fedora
